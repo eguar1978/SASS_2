@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.row{
+    width: 816px;
+}
+
+div.column{
+    float: left;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+@for $var from 1 through 8 {
+    @if $var % 2 == 1{
+        .fila-#{$var}{
+            @for $varCol from 1 through 8 {
+                @if $varCol % 2 == 1{
+                    .columna-#{$varCol}{
+                        background-color: rgba(163, 129, 87, 0.938);
+                    }
+                } @else {
+                    .columna-#{$varCol}{
+                        background-color: rgba(59, 40, 18, 0.911);
+                    }
+                }
+            }
+        }
+    }
+    @if $var % 2 == 0{
+        .fila-#{$var}{
+            @for $varCol from 1 through 8 {
+                @if $varCol % 2 == 0{
+                    .columna-#{$varCol}{
+                        background-color: rgba(163, 129, 87, 0.938);
+                    }
+                } @else {
+                    .columna-#{$varCol}{
+                        background-color: rgba(59, 40, 18, 0.911);
+                    }
+                }
+            }
+        }
+    }  
+}
+
+.white{
+    color: white
+}
+
+.black{
+    color: black;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 4em sans-serif;
+}
+
+
+
+/* BANDERAS */
+
+.bandera{
+    width: 100%;
+    height:100vh;
+}
+
+/* Argentina */
+
+
+@for $var from 1 through 3 {
+    @if $var % 2 == 1{
+        .filaBanArg-#{$var}{
+            background-color: rgb(66, 193, 243);
+        }
+    }
+
+    .filaBanArg-#{$var}{
+        height: 33.33%;
+        width: 100%;
+    }
+}
+
+.filaBanArg-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solArg{
+    padding: 7%;
+    width:auto;
+    height:auto;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -khtml-border-radius: 50%;
+    background-color: rgb(252, 248, 5);
+    
+}
+
+@media (max-width: 320px){
+    .solArg {padding: 50%;}
+}
+
+@media (min-width: 321px) and (max-width: 550px){
+    .solArg {padding: 15%;}
+}
+
+@media (min-width: 551px) and (max-width: 800px){
+    .solArg {padding: 10%;}
+}
+
+@media (min-width: 801px){
+    .solArg {padding: 6.5%;}
+}
+
+/* Uruguay */
+
+@for $var from 1 through 9 {
+    @if $var % 2 == 1{
+        .filaBanUru-#{$var}{
+            background-color: rgb(15, 10, 255);
+        }
+    }
+
+    .filaBanUru-#{$var}{
+        height: 11.11%;
+        width: 100%;
+    }
+}
+
+
+
+.padre__sol__uru{
+    float: left;
+    display: flex;
+    width: 30%;
+    height: 44.44%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.sol__uru{
+    padding: 30%;
+    width:auto;
+    height:auto;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -khtml-border-radius: 50%;
+    background-color: rgb(252, 248, 5);
+    
+}
+
+/* Venezuela */
+
+.venezuela{
+  font-size: 16px;
+  background-color: rgb(31, 3, 192);
+}
+
+@for $var from 1 through 3 {
+    @if $var == 1{
+        .fila__ban__ven__#{$var}{
+            background-color: rgb(246, 250, 2);
+            height: 33.33%;
+            width: 100%;
+        }
+    } @else if $var == 2 {
+        .fila__ban__ven__#{$var}{
+            background-color: rgb(4, 0, 255);
+            height: 33.33%;
+            width: 100%;
+        }
+    } @else if $var == 3 {
+        .fila__ban__ven__#{$var}{
+            background-color: rgb(255, 0, 0);
+            height: 33.33%;
+            width: 100%;
+        }
+    }
+}
+
+.fila__ban__ven__2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+$sep__alto: 30px;
+$sep__ancho: 8px;
+
+.estrella-4, .estrella-5{
+    padding-top: $sep__alto;
+    padding-right: $sep__ancho;
+    padding-left: $sep__ancho;
+}
+.estrella-3, .estrella-6{
+    padding-top: $sep__alto*2;
+    padding-right: $sep__ancho;
+    padding-left: $sep__ancho;
+}
+.estrella-2, .estrella-7{
+    padding-top: $sep__alto*3;
+    padding-right: $sep__ancho;
+    padding-left: $sep__ancho;
+}
+.estrella-1, .estrella-8{
+    padding-top: $sep__alto*4;
+    padding-right: $sep__ancho;
+    padding-left: $sep__ancho;
+}
+
+@media (max-width: 370px){
+    .fila__ban__ven__2 {font-size: 0.2rem;}
+}
+
+@media (min-width: 371px) and (max-width: 560px){
+    .fila__ban__ven__2 {font-size: 0.4rem;}
+}
+
+@media (min-width: 561px) and (max-width: 760px){
+    .fila__ban__ven__2 {font-size: 0.7rem;}
+}
+
+@media (min-width: 761px) and (max-width: 850px){
+    .fila__ban__ven__2 {font-size: 1rem;}
+}
+
+@media (min-width: 851px) and (max-width: 1200px){
+    .fila__ban__ven__2 {font-size: 1.2rem;}
+}
+
+@media (min-width: 1201px){
+    .fila__ban__ven__2 {font-size: 1.5rem;}
+}

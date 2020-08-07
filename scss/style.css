@@ -1,0 +1,558 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.row {
+  width: 816px;
+}
+
+div.column {
+  float: left;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.fila-1 .columna-1 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-1 .columna-2 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-1 .columna-3 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-1 .columna-4 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-1 .columna-5 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-1 .columna-6 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-1 .columna-7 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-1 .columna-8 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-2 .columna-1 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-2 .columna-2 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-2 .columna-3 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-2 .columna-4 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-2 .columna-5 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-2 .columna-6 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-2 .columna-7 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-2 .columna-8 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-3 .columna-1 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-3 .columna-2 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-3 .columna-3 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-3 .columna-4 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-3 .columna-5 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-3 .columna-6 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-3 .columna-7 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-3 .columna-8 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-4 .columna-1 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-4 .columna-2 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-4 .columna-3 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-4 .columna-4 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-4 .columna-5 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-4 .columna-6 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-4 .columna-7 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-4 .columna-8 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-5 .columna-1 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-5 .columna-2 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-5 .columna-3 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-5 .columna-4 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-5 .columna-5 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-5 .columna-6 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-5 .columna-7 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-5 .columna-8 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-6 .columna-1 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-6 .columna-2 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-6 .columna-3 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-6 .columna-4 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-6 .columna-5 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-6 .columna-6 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-6 .columna-7 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-6 .columna-8 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-7 .columna-1 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-7 .columna-2 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-7 .columna-3 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-7 .columna-4 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-7 .columna-5 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-7 .columna-6 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-7 .columna-7 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-7 .columna-8 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-8 .columna-1 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-8 .columna-2 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-8 .columna-3 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-8 .columna-4 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-8 .columna-5 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-8 .columna-6 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.fila-8 .columna-7 {
+  background-color: rgba(59, 40, 18, 0.911);
+}
+
+.fila-8 .columna-8 {
+  background-color: rgba(163, 129, 87, 0.938);
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 4em sans-serif;
+}
+
+/* BANDERAS */
+.bandera {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Argentina */
+.filaBanArg-1 {
+  background-color: #42c1f3;
+}
+
+.filaBanArg-1 {
+  height: 33.33%;
+  width: 100%;
+}
+
+.filaBanArg-2 {
+  height: 33.33%;
+  width: 100%;
+}
+
+.filaBanArg-3 {
+  background-color: #42c1f3;
+}
+
+.filaBanArg-3 {
+  height: 33.33%;
+  width: 100%;
+}
+
+.filaBanArg-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.solArg {
+  padding: 7%;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  background-color: #fcf805;
+}
+
+@media (max-width: 320px) {
+  .solArg {
+    padding: 50%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 550px) {
+  .solArg {
+    padding: 15%;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 800px) {
+  .solArg {
+    padding: 10%;
+  }
+}
+
+@media (min-width: 801px) {
+  .solArg {
+    padding: 6.5%;
+  }
+}
+
+/* Uruguay */
+.filaBanUru-1 {
+  background-color: #0f0aff;
+}
+
+.filaBanUru-1 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.filaBanUru-2 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.filaBanUru-3 {
+  background-color: #0f0aff;
+}
+
+.filaBanUru-3 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.filaBanUru-4 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.filaBanUru-5 {
+  background-color: #0f0aff;
+}
+
+.filaBanUru-5 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.filaBanUru-6 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.filaBanUru-7 {
+  background-color: #0f0aff;
+}
+
+.filaBanUru-7 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.filaBanUru-8 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.filaBanUru-9 {
+  background-color: #0f0aff;
+}
+
+.filaBanUru-9 {
+  height: 11.11%;
+  width: 100%;
+}
+
+.padre__sol__uru {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  height: 44.44%;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sol__uru {
+  padding: 30%;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  background-color: #fcf805;
+}
+
+/* Venezuela */
+.venezuela {
+  font-size: 16px;
+  background-color: #1f03c0;
+}
+
+.fila__ban__ven__1 {
+  background-color: #f6fa02;
+  height: 33.33%;
+  width: 100%;
+}
+
+.fila__ban__ven__2 {
+  background-color: #0400ff;
+  height: 33.33%;
+  width: 100%;
+}
+
+.fila__ban__ven__3 {
+  background-color: red;
+  height: 33.33%;
+  width: 100%;
+}
+
+.fila__ban__ven__2 {
+  color: white;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.estrella-4, .estrella-5 {
+  padding-top: 30px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.estrella-3, .estrella-6 {
+  padding-top: 60px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.estrella-2, .estrella-7 {
+  padding-top: 90px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.estrella-1, .estrella-8 {
+  padding-top: 120px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+@media (max-width: 370px) {
+  .fila__ban__ven__2 {
+    font-size: 0.2rem;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 560px) {
+  .fila__ban__ven__2 {
+    font-size: 0.4rem;
+  }
+}
+
+@media (min-width: 561px) and (max-width: 760px) {
+  .fila__ban__ven__2 {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 850px) {
+  .fila__ban__ven__2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+  .fila__ban__ven__2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .fila__ban__ven__2 {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
